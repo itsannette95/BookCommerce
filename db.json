@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Secret",
+      "author": "Rhonda Byrne",
+      "price": 18,
+      "editore": "Mondadori",
+      "description": "Frammenti di un Grande Segreto sono stati trovati, lungo il corso dei secoli, nelle tradizioni orali, in letteratura, nelle religioni e nelle filosofie. Per la prima volta tutti i tasselli del Segreto si uniscono in un'incredibile rivelazione che trasformerà la vita di coloro che ne faranno esperienza..."
+    },
+    {
+      "id": 2,
+      "title": " Il benessere emotivo",
+      "author": "Osho",
+      "price": 12,
+      "editore": "Oscar Mondadori",
+      "description": "La mente è uno splendido meccanismo, usalo, ma non farti usare. È al servizio dei sentimenti: se il pensiero serve i sentimenti, tutto è in equilibrio; nel tuo essere sorgono profonda quiete e gioia..."
+    },
+    {
+      "id": 3,
+      "title": "Dentro l'acqua",
+      "author": "Paula Hawkins",
+      "price": 14,
+      "editore": "Piemme",
+      "description": "Cosa è successo a sua sorella? Qualcosa di oscuro si nasconde nel fiume di Beckford, qualcosa che rende l’anima nera. Con Dentro l’acqua e dopo il successo di La ragazza del treno, Paula Hawkins ci porta nelle macchie esistenziali di una città, di una famiglia e di due sorelle..."
+    },
+    {
+      "id": 4,
+      "title": "Ci credo, ci riesco",
+      "author": "Selene Calloni Williams",
+      "price": "12",
+      "editore": "Edizioni Mediterranee",
+      "description": "Un eccezionale manuale di coaching per chi vuole realizzare grandi cose e lasciare il segno, per chi non accetta di essere limitato dalla paura, dall’insicurezza, dalla mancanza di soldi, dalle credenze o dallo stato socio-economico del proprio clan familiare, una risposta effettiva al bisogno di chi non vuole accontentarsi ed è convinto che la felicità e la piena realizzazione di sé siano cose di questo mondo e le sente fremere come un cavallo che ha voglia di galoppare libero."
+    },
+    {
+      "id": 5,
+      "title": null,
+      "author": null,
+      "price": null,
+      "editore": null,
+      "description": null
+    }
+  ]
+}

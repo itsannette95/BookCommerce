@@ -1,0 +1,9 @@
+i {
+    font-size: 2rem;
+    color:brown !important
+}
+
+footer {
+    background-image: url("../../assets/img/home-bg.jpg");
+    background-size: cover;
+}

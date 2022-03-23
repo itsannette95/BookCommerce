@@ -1,0 +1,26 @@
+<form class="pt-4" #form="ngForm" (submit)="add()">
+    <div class="form-group mb-3">
+        <label for="inputTitle">Titolo:</label>
+        <input type="text" [(ngModel)]="newBook.title" class="form-control" name="titolo" placeholder="Titolo..">
+    </div>
+    <div class="form-group mb-3">
+        <label for="inputAuthor">Autore:</label>
+        <input type="text" [(ngModel)]="newBook.author" class="form-control" name="titolo" placeholder="Autore..">
+    </div>
+    <div class="form-group mb-3">
+        <label for="inputPrice">Prezzo</label>
+        <input type="text" [(ngModel)]="newBook.price" class="form-control" name="titolo" placeholder="Prezzo..">
+    </div>
+    <div class="form-group mb-3">
+        <label for="inputEdit">Editore:</label>
+        <input type="text" [(ngModel)]="newBook.editore" class="form-control" name="titolo" placeholder="Editore..">
+    </div>
+    <div class="form-group mb-3">
+        <label for="inputDescription">Descrizione:</label>
+        <input type="text" [(ngModel)]="newBook.description" class="form-control" name="titolo"
+            placeholder="Descrizione..">
+    </div>
+    <div class="text-center">
+        <button type="submit" class="btn btn-dark">ADD</button>&nbsp;&nbsp;&nbsp;<button (click)="reset(form)" class="btn btn-warning">RESET</button>
+    </div>
+</form>
