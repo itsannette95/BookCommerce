@@ -16,7 +16,8 @@ export class FormComponent implements OnInit {
     author: "",
     price: +"",
     editore: "",
-    description: ""
+    description: "",
+    img: ""
   }
 
   books!: Book[];

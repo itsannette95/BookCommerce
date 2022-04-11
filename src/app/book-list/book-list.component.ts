@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Book } from '../interfaces/book';
 import { BooksService } from '../services/books.service';
 
@@ -16,7 +16,8 @@ export class BookListComponent implements OnInit {
 
 
   constructor(private service: BooksService,
-              private router: Router) { }
+              private router: Router
+              ) { }
 
   ngOnInit(): void {
     this.service.getAll()
@@ -41,6 +42,10 @@ export class BookListComponent implements OnInit {
   goEdit(event: Event, book:Book) {
     event.stopPropagation();
     this.router.navigate(['book', book.id, 'edit'])
+  }
+
+  detail(book:Book) {
+    this.router.navigate(['book', book.id, 'details'])
   }
 
 }

@@ -1,0 +1,31 @@
+<div *ngIf="book" class="row py-5">
+    <div class="col-lg-6 col-md-6 mx-auto">
+        <div class="pull-right">
+            <img class="img-thumbnail" width="350" [src]="book.img" [alt]="book.title">
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-6 mx-auto">
+        <div class="post-preview">
+            <h2 class="post-title">{{book.title}}</h2>
+            <small class="post-meta">
+                di {{book.author}}
+            </small>
+            <small class="post-subtitle">
+                <br>
+                € {{book.price | number: '1.2-2'}}
+            </small>
+            <small class="post-subtitle">
+                <br>
+                Editore: {{book.editore}}
+            </small>
+            <p class="post-title bellottaFont">
+                {{book.description}}
+            </p>
+        </div>
+        <div>
+            <button (click)="goBack()" class="btn-sm btn-outline-dark float-end">
+                GO BACK
+            </button>
+        </div>
+    </div>
+</div>

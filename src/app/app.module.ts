@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { EditComponent } from './edit/edit.component';
 import { HomeComponent } from './home/home.component';
+import { BookdetailsComponent } from './bookdetails/bookdetails.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { HomeComponent } from './home/home.component';
     BookListComponent,
     FormComponent,
     EditComponent,
-    HomeComponent
+    HomeComponent,
+    BookdetailsComponent
   ],
   imports: [
     BrowserModule,

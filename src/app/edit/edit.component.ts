@@ -18,7 +18,8 @@ export class EditComponent implements OnInit {
     author: "",
     price: +"",
     editore: "",
-    description: ""
+    description: "",
+    img: ""
   }
 
   constructor(private route: ActivatedRoute,
